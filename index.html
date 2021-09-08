@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,33 @@
 
     <!---Google Font and  Font Awesome-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
+
 <body>
 
-       <!-- Title and logo heading at the top of the page -->
+    <!-- Title and logo heading at the top of the page -->
 
     <h1 class="heading">
         <img class="logo" src="assets/images/logo.PNG" alt="logo">Rock Paper Scissors Lizard Spock
     </h1>
 
-     <!-- Rules, Start, Contact Buttons with popup modals -->
+    <!-- Rules, Start, Contact Buttons with popup modals -->
 
-     <div class="modals">
+    <div class="modals">
         <a class="index_btn" href="#open_rules_modal">Rules</a>
         <div id="open_rules_modal" class="modalDialog openModal">
             <div>
                 <a href="#close" title="Close" class="close">X</a>
                 <h2 class="modal_title">Rules</h2>
-                <p>First to 5 points wins!</p>
+
                 <br />
                 <p>
-                    The famous game first heard in The Big Bang Theory between Sheldon and Raj. The episode was called The Rothman Disintegration
+                    First to 3 wins! The famous game first heard in The Big Bang Theory between Sheldon and Raj.
                     <br />
                     <br />
                     Scissors beats Paper
@@ -55,18 +57,67 @@
                     <br />
                     Rock smashes Scissors
 
-                  
+
                 </p>
+            </div>
+        </div>
+        <a class="index_btn" href="#open_game_modal">Start Game</a>
+
+
+        <div id="open_game_modal" class="modalDialog openModal">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2 class="modal_title">Game</h2>
+                
+                <a class="game_btn" onclick="bigBang('rock', randomChoice)">Rock</a>
+                <a class="game_btn" onclick="bigBang('scissors', randomChoice)">scissors</a>
+                <a class="game_btn" onclick="bigBang('paper', randomChoice)">paper</a>
+                <a class="game_btn" onclick="bigBang('lizard', randomChoice)">lizard</a>
+                <a class="game_btn" onclick="bigBang('spock', randomChoice)">spock</a>    
             </div>
         </div>
     </div>
 
-   
 
 
 
-    
-    <script src="assets/js/script.js"></script>
+
+
+
+    <script type="text/javascript">
+        var options = ["paper", "rock", "lizard", "spock", "scissors"],
+          result = [" ties ", " beats ", " loses to "],
+          i = Math.floor(Math.random() * 5),
+          randomChoice = options[i],
+          userScore = 0,
+          computerScore = 0,
+          bigBang = function(choice1, choice2) {
+              var index1 = options.indexOf(choice1), //spock => 3
+                  index2 = options.indexOf(choice2), //rock=> 1
+                  dif = index2 - index1; // 1 - 3 => -2
+              if(dif < 0) { // -2 < 0 => truthy
+                  dif += options.length; // -2 + 5 => 3
+              }
+              while(dif > 2) { //3 > 2 => truthy
+                  dif -= 2; // 3 - 2 => 1
+              }
+              i = Math.floor(Math.random() * 5);
+              randomChoice = options[i];
+              
+              if(dif == 1) {
+                userScore += 1; 
+              }
+              if(dif >= 2) {
+                computerScore += 1; 
+              }
+              console.log(userScore, computerScore);
+              console.log(choice1 + result[dif] + choice2); //spock beats rock
+
+              // if user wins increment score
+              // if computer wins increment computer score
+              // if tie do nothing 
+          };
+     </script>
     <footer>
         <ul class="social-networks">
             <li>
@@ -85,9 +136,10 @@
                 <a href="https://instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
-            </ul>
+        </ul>
     </footer>
 
     <script src="https://kit.fontawesome.com/46c2202b92.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

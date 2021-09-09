@@ -68,7 +68,12 @@
             <div>
                 <a href="#close" title="Close" class="close">X</a>
                 <h2 class="modal_title">Game</h2>
-                
+                <div>
+                    <p id="userScore"></p>
+                    <p id="computerScore"></p>
+                    <p id="userChoice"></p>
+                    <p id="computerChoice"></p>
+                </div>  
                 <a class="game_btn" onclick="bigBang('rock', randomChoice)">Rock</a>
                 <a class="game_btn" onclick="bigBang('scissors', randomChoice)">scissors</a>
                 <a class="game_btn" onclick="bigBang('paper', randomChoice)">paper</a>
@@ -112,7 +117,10 @@
               }
               console.log(userScore, computerScore);
               console.log(choice1 + result[dif] + choice2); //spock beats rock
-
+              document.getElementById("computerScore").innerHTML = computerScore;
+              document.getElementById("userScore").innerHTML = userScore;
+              document.getElementById("userChoice").innerHTML = choice1;
+              document.getElementById("computerChoice").innerHTML = choice2;
               // if user wins increment score
               // if computer wins increment computer score
               // if tie do nothing 

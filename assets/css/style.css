@@ -1,6 +1,9 @@
 
 /* headings and logo */
+body {
+    background-image: url('/assets/images/logo.PNG');
 
+}
 h1, h2 {
     font-family: Oswald, sans-serif;
      text-transform: uppercase;
@@ -150,5 +153,11 @@ footer {
     display: inline;
 }
 
-/* background on main page /*
+.modals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: firebrick;
+    
+}
 

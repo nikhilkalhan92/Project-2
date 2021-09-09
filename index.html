@@ -67,12 +67,20 @@
         <div id="open_game_modal" class="modalDialog openModal">
             <div>
                 <a href="#close" title="Close" class="close">X</a>
-                <h2 class="modal_title">Game</h2>
-                <div>
-                    <p id="userScore"></p>
-                    <p id="computerScore"></p>
-                    <p id="userChoice"></p>
-                    <p id="computerChoice"></p>
+                <h2 class="modal_title">Start Game</h2>
+                <div class="results_container">
+                    <div class="score_container">
+                        <p id="userScore">0</p>
+                        <p id="computerScore">0</p>
+                    </div>
+                    <div class="choice_container">
+                        <p id="userChoice"></p>
+                        <p id="computerChoice"></p>
+                    </div>
+                    <div class="choice_container">
+                        <p id="resultText"></p>
+                    </div>
+                    
                 </div>  
                 <a class="game_btn" onclick="bigBang('rock', randomChoice)"><i class="fas fa-hand-rock"></i></a>
                 <a class="game_btn" onclick="bigBang('scissors', randomChoice)"><i class="far fa-hand-scissors"></i></a>
@@ -121,6 +129,7 @@
               document.getElementById("userScore").innerHTML = userScore;
               document.getElementById("userChoice").innerHTML = choice1;
               document.getElementById("computerChoice").innerHTML = choice2;
+              document.getElementById("resultText").innerHTML = choice1 + result[dif] + choice2;
               // if user wins increment score
               // if computer wins increment computer score
               // if tie do nothing 

@@ -87,6 +87,7 @@ a {
 
 .modal_title {
     padding-top: 2.5%;
+    text-align: center;
 }
 
 /* footer */
@@ -112,4 +113,39 @@ footer {
     margin: 1%;
     padding: 1%;
     color: green;
+}
+
+.results_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score_container {
+    border-radius: 10px;
+}
+
+.score_container p {
+    display: inline;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    padding: 20px
+}
+.score_container #userScore {
+    background-color: crimson;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -6px;
+}
+.score_container #computerScore {
+ background-color: dodgerblue;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+.choice_container {
+    padding-top: 40px;
+}
+.choice_container p{
+    display: inline;
 }

@@ -33,7 +33,7 @@ h1, h2 {
 }
 .modalDialog:target {
     opacity: 1;
-    
+    pointer-events: auto;
 }
 
 .modalDialog > div {
@@ -45,6 +45,10 @@ h1, h2 {
     border-radius: 10px;
     font-size: 1.5rem;
     background: #dbdbdb;
+}
+
+.modalDialog a {
+    cursor: pointer;
 }
 
 .close {
@@ -126,7 +130,7 @@ footer {
     font-size: 80px;
     font-weight: bold;
     color: white;
-    padding: 20px
+    padding: 20px 40px;
 }
 .score_container #userScore {
     background-color: crimson;
@@ -169,4 +173,18 @@ footer {
 
 .index_btn:hover{
     background-color: royalblue; 
+}
+
+.game_actions{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.game_actions a{
+    color: dodgerblue;
+    transition: 0.3s;
+}
+
+.game_actions a:hover{
+    color: royalblue;
 }

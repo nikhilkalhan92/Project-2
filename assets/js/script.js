@@ -28,8 +28,6 @@ bigBang = function(choice1, choice2) {
     console.log(choice1 + result[dif] + choice2); //spock beats rock
     document.getElementById("computerScore").innerHTML = computerScore;
     document.getElementById("userScore").innerHTML = userScore;
-    document.getElementById("userChoice").innerHTML = choice1;
-    document.getElementById("computerChoice").innerHTML = choice2;
     document.getElementById("resultText").innerHTML = choice1 + result[dif] + choice2;
     // if user wins increment score
     // if computer wins increment computer score

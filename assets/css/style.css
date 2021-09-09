@@ -27,14 +27,13 @@ h1, h2 {
     background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
     opacity: 0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
+    
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
 .modalDialog:target {
     opacity: 1;
-    pointer-events: auto;
+    
 }
 
 .modalDialog > div {
@@ -59,13 +58,7 @@ h1, h2 {
     width: 24px;
     text-decoration: none;
     font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
-    padding-left: 1.5%;
+    
     padding-top: 1.5%;
     padding-right: 1.5%;
 }
@@ -99,7 +92,7 @@ footer {
 }
 
 .social-networks {
-    text-align: bottom;
+    text-align: center;
     position: fixed;
     bottom: -30px;
     width: 100%;
@@ -175,5 +168,5 @@ footer {
 }
 
 .index_btn:hover{
-    background-color: royalblue;
+    background-color: royalblue; 
 }

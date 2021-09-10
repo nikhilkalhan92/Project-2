@@ -190,3 +190,41 @@ footer {
 .game_actions a:hover{
     color: royalblue;
 }
+
+/* Media Queries */
+
+/* Small Devices */
+@media (min-width: 576px) { 
+    #open_modal {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+/* Medium Devices */
+
+@media (min-width: 768px) {
+    #open_modal {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    #open_modal {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #open_modal {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+    
+
+

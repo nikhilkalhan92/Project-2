@@ -1,7 +1,7 @@
 
 /* headings and logo */
 body {
-    background-image: url('/assets/images/logo.png');
+    background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     background-size: 100vw;
 

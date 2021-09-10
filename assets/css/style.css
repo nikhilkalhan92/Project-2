@@ -1,7 +1,8 @@
 
 /* headings and logo */
 body {
-    background-image: url('/assets/images/logo.PNG');
+    background-image: url('/assets/images/logo.png');
+    
 
 }
 h1, h2 {

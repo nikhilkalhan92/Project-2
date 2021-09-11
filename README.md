@@ -139,10 +139,35 @@ These include:
 4. Player/Computer choices - I checked that the player button selected appears in the user choice and that the generated computer choice is displaying correctly.
 5. Made sure the X button takes you back to the homepage	
 
+#### Google Developer Tools ####
+
+I tested my website using Google Chrome Developer Tools Lighthouse feature, and received the results below:
+
+![lighthouse score](assets/images/googledevtools.png)
+
+
+#### END PRODUCT ####
+
+HOMEPAGE
+![homepage](assets/images/homepage.png)
+
+RULES
+![rules](assets/images/rules.png)
+
+GAME
+![game](assets/images/game.png)
+
+GAME IN ACTION
+![gameinaction](assets/images/gameinaction.png)
+
 
 ### IMAGES ###
 
 Link to my background photo is here - https://docs.microsoft.com/en-us/samples/microsoft/rockpaperscissorslizardspock/azure-rock-paper-scissors/
+
+ACKNOWLEDGMENTS
+
+
 
 
 

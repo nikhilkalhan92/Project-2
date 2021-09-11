@@ -4,10 +4,9 @@ body {
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     background-size: 100vw;
-    background-attachment: scroll;
     
-
 }
+
 h1, h2 {
     font-family: Oswald, sans-serif;
      text-transform: uppercase;

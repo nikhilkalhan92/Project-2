@@ -39,34 +39,30 @@ My overall color scheme used throughtout the site.
 [Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/Wireframes-Project2.pdf)
 
 
-
-
-
-
 #### LANGUAGES USED ####
 
  
-- HTML 
-- CSS  
-- JavaScript 
+1. HTML 
+2. CSS  
+3. JavaScript 
 
 ### PROGRAMS USED ###
-Font Awesome:
+1. Font Awesome:
 Font Awesome was using for a few icons used in the footer aspect of the site pages.
 
-Google Fonts:
+2. Google Fonts:
 Google Fonts was used for all the text content on the site pages.
 
-GitPod:
+3. GitPod:
 GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
 
-GitHub:
+4. GitHub:
 GitHub is being used to store all the code for this project after being pushed from GitPod.
 
-Balsamiq:
+5. Balsamiq:
 Balsamiq was used in the initial design process to make wireframes.
 
-Firefox Developer Tools:
+6. Google Chrome Developer Tools:
 Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 
 #### DEPLOYMENT ####
@@ -92,14 +88,14 @@ If you need to make a copy of a repository:
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
-W3C HTML Validator Results
+1. W3C HTML Validator Results
 [HTML](/workspace/Project-2/assets/images/html.png)
 
 
-W3C CSS Validator Results
+2. W3C CSS Validator Results
 [CSS](assets/images/csscheck.png)
 
-JSHINT Results
+3. JSHINT Results
 [JSS](assets/images/JS.png)
 
 #### WEBSITE TESTING ####

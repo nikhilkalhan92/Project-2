@@ -200,9 +200,9 @@ footer {
         height: 100px;
     }
 
-    #start_game_modal {
-        width: 360px;
-    }
+    .modalDialog > div {
+        width: 360px
+  }
 }
 
 /* Medium Devices */
@@ -213,17 +213,13 @@ footer {
         height: 100px;
     }
 
-    #start_game_modal {
-        width: 360px;
-    }
+    .modalDialog > div {
+        width: 360px
+        } 
 
 }
 
-#open_modal {
-    height: 600px;
-    width: 360px;
 
-}
 
 
 

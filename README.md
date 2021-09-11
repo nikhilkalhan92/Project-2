@@ -1,5 +1,7 @@
 MS2 Project - Rock Paper Scissors Lizard Spock
 
+Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game that involves languages like HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
+
 ![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-2)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-2)
 ![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-2)
@@ -29,12 +31,12 @@ DESIGN
 COLOR SCHEME
 My overall color scheme used throughtout the site.
 
-- Crimson Red
+- Crimson Red - 
 - Dodger Blue
 - Green
 - Royal Blue
 
-[Here are my wireframes for desktop, mobile and tablet for this project] ()
+[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/Wireframes-Project2.pdf)
 
 
 
@@ -91,8 +93,52 @@ If you need to make a copy of a repository:
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
 W3C HTML Validator Results
+[HTML](/workspace/Project-2/assets/images/html.png)
+
 
 W3C CSS Validator Results
+[CSS](assets/images/csscheck.png)
+
+JSHINT Results
+[JSS](assets/images/JS.png)
+
+#### WEBSITE TESTING ####
+
+I have tested my site on Safari and google chrome on multiple devices. 
+These include:
+1. iPhone X
+2. iPad Pro
+3. Macbook Pro
+4. Large Desktop
+
+#### Please find below my testing process for all pages via mobile and web: ####
+
+#### All Pages ####
+2. Background - I tested this on Chrome and Safari on all devices.
+3. Text: I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
+
+#### Responsiveness ####
+1. I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find breakpoints. It worked as expected.
+
+#### HomePage ####
+
+1. Introduction button - When selecting the "introduction" button, a popup modal appears with a short summary of the game with an embedded video. This worked as expected.
+2. Rules button - When selecting the "rules" button, a popup modal appears with rules of the game. This worked as expected.
+3. Start game button - When selecting the "start game" button, the browser redirects to the game page. This worked as expected.
+
+#### Footer ####
+1. Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
+2. Twitter - When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
+3. YouTube - When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
+4. Instagram - When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
+
+#### Game Page ####
+1. Results - I checked that the result output is displaying the correct caption for the winning / losing outcomes.
+2. Scoreboard - I checked that the score board increments the correct score for player and computer.
+3. Select your Option - I checked that the icons are all the same size and display the correct colours when hovering over them.
+4. Player/Computer choices - I checked that the player button selected appears in the user choice and that the generated computer choice is displaying correctly.
+5. Made sure the X button takes you back to the homepage	
+
 
 ### IMAGES ###
 

@@ -211,19 +211,6 @@ footer {
     }
 }
 
-@media (min-width: 992px) {
-    #open_modal {
-        width: 100px;
-        height: 100px;
-    }
-}
-
-@media (min-width: 1200px) {
-    #open_modal {
-        width: 100px;
-        height: 100px;
-    }
-}
 
     
 

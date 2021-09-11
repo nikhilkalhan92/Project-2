@@ -1,11 +1,13 @@
 MS2 Project - Rock Paper Scissors Lizard Spock
 
-![GitHub contributors]
-![GitHub last commit]
-![GitHub language count]
-![GitHub top language]
+![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-2)
+![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-2)
+![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-2)
+![GitHub top language](https://img.shields.io/github/languages/top/nikhilkalhan92/Project-2)
 
- [Here is a link to the final project](https://8000-peach-parrot-1ofaj84y.ws-eu16.gitpod.io/#close)
+
+
+ [Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
 
  ### INITIAL DESIGN ###
 
@@ -18,6 +20,22 @@ MS2 Project - Rock Paper Scissors Lizard Spock
 #### First Time Visitors ####
 - The browser must find the game easy to use and play.
 - I want the browser to understand how to play the game and the rules
+
+### FINAL DESIGN ###
+
+![Final project image home page](https://nikhilkalhan92.github.io/Project-2/)
+
+DESIGN
+COLOR SCHEME
+My overall color scheme used throughtout the site.
+
+- Crimson Red
+- Dodger Blue
+- Green
+- Royal Blue
+
+[Here are my wireframes for desktop, mobile and tablet for this project] ()
+
 
 
 

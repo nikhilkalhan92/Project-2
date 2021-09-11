@@ -213,8 +213,12 @@ footer {
 
 #open_modal {
     height: 600px;
-    width: 600px;
+    width: 360px;
 
+}
+
+#start_game_modal {
+    width: 360px;
 }
 
     

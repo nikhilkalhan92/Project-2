@@ -27,8 +27,6 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 
 ### FINAL DESIGN ###
 
-![Final project image home page](https://nikhilkalhan92.github.io/Project-2/)
-
 DESIGN
 COLOR SCHEME
 My overall color scheme used throughtout the site.
@@ -156,7 +154,7 @@ HOMEPAGE
 ![homepage](assets/images/homepage.png)
 
 RULES
-![rules](assets/images/rules.png)
+![rules](assets/images/rules1.png)
 
 GAME
 ![game](assets/images/game.png)

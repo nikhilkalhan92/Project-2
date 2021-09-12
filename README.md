@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-2)
 ![GitHub top language](https://img.shields.io/github/languages/top/nikhilkalhan92/Project-2)
 
-Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game that involves languages like HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
+Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game involving the programming languages HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
 
 
 [Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
@@ -17,19 +17,19 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 
  My initial idea was to create a fun interactive game based on a show I used to watch.
 
-- The site needs to be easy to use
-- Moving the mouse around the site needs to be simple
-- Images that show what the bar looks like inside and the layout 
+- The site needs to be easy to use.
+- The functionality of the mouse must be precise and accurate.
+
 
 #### First Time Visitors ####
-- The browser must find the game easy to use and play.
-- I want the browser to understand how to play the game and the rules
+- The user must find the game easy to use and play.
+- I want the user to understand how to play the game and the rules
 
 ### FINAL DESIGN ###
 
 DESIGN
 COLOR SCHEME
-My overall color scheme used throughtout the site.
+My overall color scheme used throughout the site.
 
 - Crimson Red - 
 - Dodger Blue
@@ -37,7 +37,7 @@ My overall color scheme used throughtout the site.
 - Royal Blue
 - Hex 
 
-[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/wireframeproject2.pdf)
+### WIREFRAME ###
 
 ![Desktop wireframe](assets/images/desktopwrieframe.png)
 ![Ipad wireframe](assets/images/ipadwireframe.png)
@@ -54,22 +54,22 @@ My overall color scheme used throughtout the site.
 
 ### PROGRAMS USED ###
 1. Font Awesome:
-Font Awesome was using for a few icons used in the footer aspect of the site pages.
+I downloaded the fonts for use in the footer section highlighting the social media websites.
 
 2. Google Fonts:
-Google Fonts was used for all the text content on the site pages.
+For us of all text content on the site pages.
 
 3. GitPod:
-GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
+Used to  write up the code for my project and with the help of the GitPod terminal to commit everything to GitHub.
 
 4. GitHub:
-GitHub is being used to store all the code for this project after being pushed from GitPod.
+Stored all the code for this project after being pushed from GitPod.
 
 5. Balsamiq:
-Balsamiq was used in the initial design process to make wireframes.
+Utilized in the initial design process to create wireframes.
 
 6. Google Chrome Developer Tools:
-Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
+Google Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 
 #### DEPLOYMENT ####
 
@@ -106,7 +106,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 #### WEBSITE TESTING ####
 
-I have tested my site on Safari and google chrome on multiple devices. 
+I have tested my site on Safari and Google Chrome on multiple devices. 
 These include:
 1. iPhone X
 2. iPad Pro
@@ -116,17 +116,16 @@ These include:
 #### Please find below my testing process for all pages via mobile and web: ####
 
 #### All Pages ####
-2. Background - I tested this on Chrome and Safari on all devices.
-3. Text: I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
+1. Background - I tested this on Chrome and Safari on all devices.
+2. Text: I checked that all text is in the correct and consistent size and font. I also checked that there were no spelling errors.
 
 #### Responsiveness ####
-1. I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find breakpoints. It worked as expected.
+1. I checked that all pages and elements were responsive. To find breakpoints, I adjusted the screen sizes on mobile and website. It worked as expected. 
 
 #### HomePage ####
 
-1. Introduction button - When selecting the "introduction" button, a popup modal appears with a short summary of the game with an embedded video. This worked as expected.
-2. Rules button - When selecting the "rules" button, a popup modal appears with rules of the game. This worked as expected.
-3. Start game button - When selecting the "start game" button, the browser redirects to the game page. This worked as expected.
+1. Rules button - When selecting the "rules" button, a popup modal appears with rules of the game. This worked as expected.
+2.. Start game button - When selecting the "start game" button, a popup modal appears to the game page. This worked as expected.
 
 #### Footer ####
 1. Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
@@ -171,7 +170,7 @@ ACKNOWLEDGMENTS
 
 Thank you to my mentor Marcel for the help and guidance.
 
-Special shoutout to Emmanuel 'Manni' Silva and Jayden "J2" Maddison. 
+A special shoutout to Emmanuel 'Manni' Silva and Jayden "J2" Maddison. 
 
 
 

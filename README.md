@@ -1,4 +1,4 @@
-MS2 Project - Rock Paper Scissors Lizard Spock
+#### MS2 PROJECT 2 - ROCK PAPER SCISSORS LIZARD SPOCK ####
 
 ![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-2)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-2)
@@ -9,6 +9,9 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 
 
 [Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
+
+### AM I RESPONSIVE ###
+![AM I RESPONSIVE](assets/images/amiresponsive.png)
 
  ### INITIAL DESIGN ###
 
@@ -35,14 +38,19 @@ My overall color scheme used throughtout the site.
 - Green
 - Royal Blue
 
-[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/Wireframes-Project2.pdf)
+[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/wireframeproject2.pdf)
+
+![Desktop wireframe](assets/images/desktopwrieframe.png)
+![Ipad wireframe](assets/images/ipadwireframe.png)
+![Ipad Wireframe2](assets/images/ipadwireframe2.png)
+![Iphone Wireframe](assets/images/iphonewireframes.png)
 
 
 #### LANGUAGES USED ####
 
  
-1. HTML 
-2. CSS  
+1. HTML5
+2. CSS3 
 3. JavaScript 
 
 ### PROGRAMS USED ###

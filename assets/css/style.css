@@ -99,6 +99,9 @@ a {
 /* footer */
 footer {
     height: 150px;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
 }
 
 .social-networks {
@@ -106,8 +109,8 @@ footer {
     position: fixed;
     bottom: -30px;
     width: 100%;
-    left: 50%;
-    margin-left: -180px;
+    
+   
 }
 
 .social-networks > li {
@@ -227,6 +230,18 @@ footer {
     height: 600px;
     width: 360px;
 }
+
+ 
+@media screen and (max-width: 700px) {
+    .social-networks {
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+
+    
+
 
 
 

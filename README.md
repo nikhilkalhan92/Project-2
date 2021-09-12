@@ -1,15 +1,14 @@
 MS2 Project - Rock Paper Scissors Lizard Spock
 
-Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game that involves languages like HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
-
 ![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-2)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-2)
 ![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-2)
 ![GitHub top language](https://img.shields.io/github/languages/top/nikhilkalhan92/Project-2)
 
+Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game that involves languages like HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
 
 
- [Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
+[Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
 
  ### INITIAL DESIGN ###
 

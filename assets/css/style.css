@@ -1,15 +1,21 @@
 
 /* headings and logo */
+ 
 body {
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
-    min-height: 90vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+main {
+    flex-grow: 1;
     background-size: cover;
     background-position: center center;
-    
-    
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
 }
-
+    
 h1, h2 {
     font-family: Oswald, sans-serif;
      text-transform: uppercase;
@@ -96,21 +102,10 @@ a {
     text-align: center;
 }
 
-/* footer */
-footer {
-    height: 150px;
-   position: fixed;
-   width: 100%;
-   bottom: 0;
-}
+
 
 .social-networks {
     text-align: center;
-    position: fixed;
-    bottom: -30px;
-    width: 100%;
-    
-   
 }
 
 .social-networks > li {
@@ -232,12 +227,6 @@ footer {
 }
 
  
-@media screen and (max-width: 700px) {
-    .social-networks {
-        position: relative;
-        bottom: 20px;
-    }
-}
 
 
     

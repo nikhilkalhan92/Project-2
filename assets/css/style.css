@@ -17,10 +17,10 @@ main {
 }
     
 h1, h2 {
-    font-family: Oswald, sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 1px;
-     color: green;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:rgb(128,0,128);
 }
 
 .logo {
@@ -64,8 +64,8 @@ h1, h2 {
 }
 
 .close {
-    background: #606061;
-    color: #ffffff;
+    background: mediumpurple;
+    color: black;
     line-height: 25px;
     position: absolute;
     right: -12px;
@@ -224,6 +224,12 @@ a {
 #open_modal {
     height: 600px;
     width: 360px;
+}
+
+.close-button {
+    padding: 6px;
+    border-radius: 5px;
+    font-family: sans-serif;
 }
 
  

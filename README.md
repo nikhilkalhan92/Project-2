@@ -102,7 +102,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 [CSS](assets/images/csscheck.png)
 
 3. JSHINT Results
-[JSS](assets/images/JS.png)
+[JSS](assets/images/js.png)
 
 #### WEBSITE TESTING ####
 
@@ -168,6 +168,10 @@ GAME IN ACTION
 Link to my background photo is here - https://docs.microsoft.com/en-us/samples/microsoft/rockpaperscissorslizardspock/azure-rock-paper-scissors/
 
 ACKNOWLEDGMENTS
+
+Thank you to my mentor Marcel for the help and guidance.
+
+Special shout to Emmanuel 'Manni' Silva and Jayden Maddison. 
 
 
 

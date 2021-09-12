@@ -171,7 +171,7 @@ ACKNOWLEDGMENTS
 
 Thank you to my mentor Marcel for the help and guidance.
 
-Special shout to Emmanuel 'Manni' Silva and Jayden Maddison. 
+Special shoutout to Emmanuel 'Manni' Silva and Jayden "J2" Maddison. 
 
 
 

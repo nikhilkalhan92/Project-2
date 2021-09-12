@@ -37,6 +37,7 @@ My overall color scheme used throughtout the site.
 - Dodger Blue
 - Green
 - Royal Blue
+- Hex 
 
 [Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/wireframeproject2.pdf)
 

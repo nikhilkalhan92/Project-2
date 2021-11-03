@@ -62,13 +62,14 @@
                 
             </div>
         </div>
-        <a class="index_btn" href="#open_game_modal">Start Game</a>
+        <a class="index_btn" id="continue" href="#open_game_modal" onclick="continue_fun()">Continue..</a>
+         <a class="index_btn" id="startNew" href="#open_game_modal" onclick="stratNew()">Start New Game</a>
 
       
 
         <div id="open_game_modal" class="modalDialog openModal">
             <div>
-                <a href="#close" title="Close" class="close">X</a>
+                <a href="#close" title="Close" onclick="close_bt()" class="close">X</a>
                 <h2 class="modal_title">Start Game</h2>
                 <div class="results_container">
                     <div class="score_container">
@@ -77,6 +78,7 @@
                     </div>
                     <div class="choice_container">
                         <p id="resultText"></p>
+                         <div id="Players"></div>
                     </div>
                 </div> 
                 <div class="game_actions">
@@ -86,6 +88,7 @@
                     <a class="game_btn" onclick="bigBang('lizard', randomChoice)"><i class="far fa-hand-lizard"></i></a>
                     <a class="game_btn" onclick="bigBang('spock', randomChoice)"><i class="fas fa-hand-spock"></i></a>        
                 </div>
+
             </div>
         </div>
     </div>

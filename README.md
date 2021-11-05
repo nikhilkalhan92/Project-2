@@ -13,17 +13,52 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 ### AM I RESPONSIVE ###
 ![AM I RESPONSIVE](assets/images/amiresponsive.png)
 
- ### INITIAL DESIGN ###
+### 1. UX
 
- My initial idea was to create a fun interactive game based on a show I used to watch.
+Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Lizard, Spock game which originated from the TV show, Big Bang Theory ( Season 2 Episode 8 - "The Lizard-Spock Expansion" ). This game adds 2 extra weapons, Lizard and Spock. This changes the who dynamic of the game giving the player/s more variety to win.
 
-- The site needs to be easy to use.
-- The functionality of the mouse must be precise and accurate.
+## 2. Strategy
 
+### Project Goals
 
-#### First Time Visitors ####
-- The user must find the game easy to use and play.
-- I want the user to understand how to play the game and the rules
+The main goal of this game is to create a fun entertaining game that is interactive to the user and to display the basic use of JavaScript functions. I want the player to be engaged with the game.
+
+ ### User Goals:
+
+First Time Visitor Goals
+-   As a first-time visitor, I want to be engaged with the concept of the game.
+-   As a first-time visitor, I want to be able to easily understand the rules of the game.
+-   As a first-time visitor, I want to play the game to win.
+
+Returning Visitor Goals
+-   As a Returning Visitor, I want to beat the computer.
+-   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
+
+Frequent User Goals
+-   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
+
+### User Expectations:
+
+The game should be engaging and display a winner and loser.
+
+-   The weapon selection is clear.
+-   The user interface is easy to navigate.
+-   The game is responsive on all devices including mobile, tablet and desktop.
+-   To have the ability to contact the creator of the game.
+
+### Trends of modern games:
+
+-   Mobile gaming 
+-   Virtual reality
+
+### 2. - Structure
+
+It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
+
+-   Responsive on all device sizes
+-   Easy navigation through labelled buttons
+-   Footer at the bottom of the index page that links to the social media website.
+-   All elements will be consistent including font size, font family, colour scheme.
 
 ### FINAL DESIGN ###
 
@@ -38,6 +73,10 @@ My overall color scheme used throughout the site.
 - Hex 
 
 ### WIREFRAME ###
+
+I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
+
+There are 4 versions of each wireframe as one shows the design on a web browser and the other shows a Ipad, Iphone and mobile browser format.
 
 ![Desktop wireframe](assets/images/desktopwrieframe.png)
 ![Ipad wireframe](assets/images/ipadwireframe.png)

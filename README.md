@@ -32,10 +32,9 @@ First Time Visitor Goals
 
 Returning Visitor Goals
 -   As a Returning Visitor, I want to beat the computer.
--   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
 
 Frequent User Goals
--   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
+-   As a Frequent User, I want to check to see if we have adjusted the game emojis.
 
 ### User Expectations:
 
@@ -49,7 +48,7 @@ The game should be engaging and display a winner and loser.
 ### Trends of modern games:
 
 -   Mobile gaming 
--   Virtual reality
+
 
 ### 2. - Structure
 
@@ -83,32 +82,49 @@ There are 4 versions of each wireframe as one shows the design on a web browser 
 ![Ipad Wireframe2](assets/images/ipadwireframe2.png)
 ![Iphone Wireframe](assets/images/iphonewireframes.png)
 
+### 2. Features
 
-#### LANGUAGES USED ####
 
+### Landing Page
+
+- Rules button - This button opens up a popup modal. This modal explains all the rules for the game. Listing the winning possibilities of each weapon. 
+
+- Start game button - This button will allow the user to navigate to the game page.
+
+- Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon magnifies.
+
+### Game Page
+
+-   Results - The results section of the page shows the user the outcome of the round.
+
+-   Scoreboard - The scoreboard shows the current score between user and computer. I have color coded the player and computer. So the player will be red, and the computer blue. Once, you start playing, the player presses the emoji they select. Once that happens, the computer option will come up in blue, and the score updates depending on if you win/lose. A sentence will appear telling you the results with the emojis.
+
+-   Select your option - This section allows the player to select their desired weapon. There are 5 icons rock, paper, scissors, lizard, spock. When hovering over each weapon the icon background changes colour to give the user confirmation before selecting the weapon. 
+
+-   Player/Computer choices - This section shows the selection of weapons made by the player and the generated weapon selection for the computer. This uses the same icons as the initial weapon selection part.
+
+-   X option- This button will take the user back to the index page.
+
+- Index Page - if you click out, you will get another pop up modal of start new game or continue the one you are in.
+
+## 3. Technologies Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML)
+    -   The project uses HyperText Markup Language.
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+    -   The project uses Cascading Style Sheets.
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    -   The project uses JavaScript.
+-   [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    -   The project uses Chrome to debug and test the source code using HTML5.
+-   [Balsamiq](https://balsamiq.com/)
+    -   Balsamiq was used to create the wireframes during the design process.
+-   [Google Fonts](https://fonts.google.com/)
+    -   Google fonts were used to import the "Sans-Serif" font into the style.css file which is used on all pages throughout the project.
+-   [GitHub](https://github.com/)
+    -   GitHub was used to store the project's code after being pushed from Git.
  
-1. HTML5
-2. CSS3 
-3. JavaScript 
 
-### PROGRAMS USED ###
-1. Font Awesome:
-I downloaded the fonts for use in the footer section highlighting the social media websites.
-
-2. Google Fonts:
-For us of all text content on the site pages.
-
-3. GitPod:
-Used to  write up the code for my project and with the help of the GitPod terminal to commit everything to GitHub.
-
-4. GitHub:
-Stored all the code for this project after being pushed from GitPod.
-
-5. Balsamiq:
-Utilized in the initial design process to create wireframes.
-
-6. Google Chrome Developer Tools:
-Google Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 
 #### DEPLOYMENT ####
 
@@ -128,7 +144,7 @@ If you need to make a copy of a repository:
 2. On GitHub, go to nikhilkalhan92/Project-2.
 3. In the top right corner, click "Fork".
 
-#### TESTING ####
+### 3. TESTING 
 #### CODE VALIDATORS ####
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.

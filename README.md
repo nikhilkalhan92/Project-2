@@ -61,7 +61,7 @@ It is really important to include responsive design in this project as many user
 
 ### FINAL DESIGN ###
 
-DESIGN
+## DESIGN
 COLOR SCHEME
 My overall color scheme used throughout the site.
 
@@ -124,8 +124,6 @@ There are 4 versions of each wireframe as one shows the design on a web browser 
 -   [GitHub](https://github.com/)
     -   GitHub was used to store the project's code after being pushed from Git.
  
-
-
 #### DEPLOYMENT ####
 
 I used GitHub pages to deploy my final project. To do this I had to:
@@ -144,29 +142,31 @@ If you need to make a copy of a repository:
 2. On GitHub, go to nikhilkalhan92/Project-2.
 3. In the top right corner, click "Fork".
 
-### 3. TESTING 
+### 4. TESTING 
 #### CODE VALIDATORS ####
 
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+### W3C Validator Tools
 
-1. W3C HTML Validator Results
-[HTML](/workspace/Project-2/assets/images/html.png)
-
+1. I used [html](assets/images/htmlcheckernoerrors.png) to check for any errors within my HTML pages. I had no errors in the index
 
 2. W3C CSS Validator Results
-[CSS](assets/images/csscheck.png)
+[CSS](assets/images/csserrors.png)
 
 3. JSHINT Results
 [JSS](assets/images/js.png)
 
 #### WEBSITE TESTING ####
 
-I have tested my site on Safari and Google Chrome on multiple devices. 
+## Manual Testing
+
+I have tested my site on Safari and google chrome on multiple devices.
+
 These include:
-1. iPhone X
-2. iPad Pro
-3. Macbook Pro
-4. Large Desktop
+
+-   iPhone X
+-   iPhone XS Max
+-   iPad Pro
+-   Macbook Pro
 
 #### Please find below my testing process for all pages via mobile and web: ####
 

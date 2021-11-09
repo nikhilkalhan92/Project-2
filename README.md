@@ -1,4 +1,4 @@
-#### MS2 PROJECT 2 - ROCK PAPER SCISSORS LIZARD SPOCK ####
+#### PROJECT 2 - ROCK PAPER SCISSORS LIZARD SPOCK ####
 
 ![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-2)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-2)
@@ -82,7 +82,7 @@ There are 4 versions of each wireframe as one shows the design on a web browser 
 ![Ipad Wireframe2](assets/images/ipadwireframe2.png)
 ![Iphone Wireframe](assets/images/iphonewireframes.png)
 
-### 2. Features
+### 3. Features
 
 
 ### Landing Page
@@ -107,7 +107,7 @@ There are 4 versions of each wireframe as one shows the design on a web browser 
 
 - Index Page - if you click out, you will get another pop up modal of start new game or continue the one you are in.
 
-## 3. Technologies Used
+## 4. Technologies Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML)
     -   The project uses HyperText Markup Language.
@@ -142,7 +142,8 @@ If you need to make a copy of a repository:
 2. On GitHub, go to nikhilkalhan92/Project-2.
 3. In the top right corner, click "Fork".
 
-### 4. TESTING 
+## 5. TESTING
+
 #### CODE VALIDATORS ####
 
 ### W3C Validator Tools
@@ -202,7 +203,7 @@ I tested my website using Google Chrome Developer Tools Lighthouse feature, and 
 ![lighthouse score](assets/images/googledevtools.png)
 
 
-#### END PRODUCT ####
+## 6. END PRODUCT 
 
 HOMEPAGE
 ![homepage](assets/images/homepage.png)
@@ -217,15 +218,15 @@ GAME IN ACTION
 ![gameinaction](assets/images/gameinaction.png)
 
 
-### IMAGES ###
+## 7. IMAGES
 
 Link to my background photo is here - https://docs.microsoft.com/en-us/samples/microsoft/rockpaperscissorslizardspock/azure-rock-paper-scissors/
 
-ACKNOWLEDGMENTS
+## 8. ACKNOWLEDGMENTS  
 
 Thank you to my mentor Marcel for the help and guidance.
 
-A special shoutout to Emmanuel 'Manni' Silva and Jayden "J2" Maddison. 
+
 
 
 

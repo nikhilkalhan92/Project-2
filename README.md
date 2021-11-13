@@ -15,7 +15,7 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 
 ### 1. UX
 
-Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Lizard, Spock game which originated from the TV show, Big Bang Theory ( Season 2 Episode 8 - "The Lizard-Spock Expansion" ). This game adds 2 extra weapons, Lizard and Spock. This changes the who dynamic of the game giving the player/s more variety to win.
+Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Lizard, Spock game which originated from the TV show, Big Bang Theory ( Season 2 Episode 8 - "The Lizard-Spock Expansion" ). This game adds 2 extra weapons, Lizard and Spock. This changes the dynamic of the game giving the player/s more variety to win.
 
 ## 2. Strategy
 
@@ -105,6 +105,8 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 
 - Index Page - if you click out, you will get another pop up modal of start new game or continue the one you are in.
 
+- The game will end and take you to the homepage, showing who won once a player reaches the 2 score.
+
 ## 4. Technologies Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML)
@@ -146,13 +148,22 @@ If you need to make a copy of a repository:
 
 ### W3C Validator Tools
 
-1. I used [html](assets/images/htmlcheckernoerrors.png) to check for any errors within my HTML pages. I had no errors in the index
+1. HTML Validator Results
+
+I used to check for any errors within my HTML pages. I had no errors in the index.
+
+![html](assets/images/htmlcheckernoerrors.png)
 
 2. W3C CSS Validator Results
-[CSS](assets/images/csserrors.png)
+![css](assets/images/csserrors.png)
 
-3. JSHINT Results
-[JSS](assets/images/js.png)
+3. JSHINT Results 
+   I had a few errors for my javascript, which I managed to resolve quite easily.
+   ![javascript](assets/images/jserrors.png) 
+
+   JS validator is like this now with no errors
+   ![javascript1](assets/images/javaresults.png)
+
 
 #### WEBSITE TESTING ####
 
@@ -193,6 +204,7 @@ These include:
 3. Select your Option - I checked that the icons are all the same size and display the correct colours when hovering over them.
 4. Player/Computer choices - I checked that the player button selected appears in the user choice and that the generated computer choice is displaying correctly.
 5. Made sure the X button takes you back to the homepage	
+6. The game will you if you have beaten the computer or won, once one players get to two.
 
 #### Google Developer Tools ####
 

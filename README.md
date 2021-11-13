@@ -219,13 +219,37 @@ HOMEPAGE
 ![homepage](assets/images/homepage.png)
 
 RULES
-![rules](assets/images/rules1.png)
+![rules](assets/images/rules.png)
 
-GAME
-![game](assets/images/game.png)
+SCOREBOARD
+![scoreboard](assets/images/scoreboard.png)
 
 GAME IN ACTION
 ![gameinaction](assets/images/gameinaction.png)
+
+OPTION TO START NEW GAME
+![newgame](assets/images/optiontostartnewgame.png)
+
+COMPUTER WINS
+![computer](assets/images/computerwins.png)
+
+PLAYER WINS
+![player](assets/images/winner.png)
+
+IPHONE MENU
+![iphonemenu](assets/images/iphonemenu.png)
+
+IPHONE GAME SCREEN
+![Iphonegame](assets/images/iphonegame1.png)
+
+IPAD MENU SCREEN
+![Iphonemenu](assets/images/ipadhomepage.png)
+
+IPAD GAME SCREEN
+![Ipadgame](assets/images/ipadgame.png)
+
+
+
 
 ## 7. IMAGES
 

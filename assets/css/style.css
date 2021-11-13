@@ -240,6 +240,11 @@ a {
     color: crimson;
 }
 
+#result{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     .modalDialog > div{
         width: 250px;

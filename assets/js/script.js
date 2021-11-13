@@ -5,7 +5,7 @@
     randomChoice = options[i],
     userScore = 0,
     computerScore = 0,
-    
+    count = 0;
     bigBang = function(choice1, choice2) {
         var index1 = options.indexOf(choice1), //spock => 3
             index2 = options.indexOf(choice2), //rock=> 1
@@ -25,6 +25,8 @@
         if(dif >= 2) {
           computerScore += 1; 
         }
+        count++;
+
         console.log(userScore, computerScore);
         console.log(choice1 + result[dif] + choice2); //spock beats rock
         document.getElementById("computerScore").innerHTML = computerScore;
@@ -34,9 +36,34 @@
         // if user wins increment score
         // if computer wins increment computer score
         // if tie do nothing 
+        if(count == 3){
+            if(userScore <computerScore){
+                document.getElementById('result').innerHTML = 'Computer Won';
+            }
+            else if(userScore>computerScore){
+                 document.getElementById('result').innerHTML = 'You Won';
+            }
+            else{
+                 document.getElementById('result').innerHTML = 'Game Tied';
+            }
+         
+
+         document.getElementById('reset').click();
+         document.getElementById('result').style.display='block'; 
+         document.getElementById("startNew").style.display = 'block';
+        userScore = 0;
+        computerScore = 0;
+        count = 0;
+        document.getElementById("computerScore").innerHTML = '0';
+        document.getElementById("userScore").innerHTML = '0';
+        document.getElementById("resultText").innerHTML = '';
+        document.getElementById("Players").innerHTML = '';
+       
+        }
     };
     
     stratNew = function(){
+         document.getElementById('result').style.display='none'; 
         document.getElementById("computerScore").innerHTML = '0';
         document.getElementById("userScore").innerHTML = '0';
         document.getElementById("resultText").innerHTML = '';
@@ -45,6 +72,7 @@
         document.getElementById("startNew").style.display = 'none';
         userScore = 0;
         computerScore = 0;
+        count = 0;
     }
     
     continue_fun = function(){
@@ -57,4 +85,5 @@
             document.getElementById("continue").style.display = 'block';
             document.getElementById("startNew").style.display = 'block';
     }
+    
     

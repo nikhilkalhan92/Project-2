@@ -204,13 +204,13 @@ These include:
 3. Select your Option - I checked that the icons are all the same size and display the correct colours when hovering over them.
 4. Player/Computer choices - I checked that the player button selected appears in the user choice and that the generated computer choice is displaying correctly.
 5. Made sure the X button takes you back to the homepage	
-6. The game will you if you have beaten the computer or won, once one players get to two.
+6. The game will you if you have beaten the computer or won, once one player get to a score of 2.
 
 #### Google Developer Tools ####
 
 I tested my website using Google Chrome Developer Tools Lighthouse feature, and received the results below:
 
-![lighthouse score](assets/images/googledevtools.png)
+![lighthouse score](assets/images/lighthouse.png)
 
 
 ## 6. END PRODUCT 
@@ -226,7 +226,6 @@ GAME
 
 GAME IN ACTION
 ![gameinaction](assets/images/gameinaction.png)
-
 
 ## 7. IMAGES
 

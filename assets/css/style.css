@@ -207,6 +207,7 @@ a {
     text-align: center;
     font-size: 50px;
     margin: 20px 0;
+    user-select: none;
 }
 .game_actions a{
     color: dodgerblue;

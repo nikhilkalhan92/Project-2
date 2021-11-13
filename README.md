@@ -75,15 +75,13 @@ My overall color scheme used throughout the site.
 
 I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
 
-There are 4 versions of each wireframe as one shows the design on a web browser and the other shows a Ipad, Iphone and mobile browser format.
+There are 3 versions of each wireframe as one shows the design on a web browser and the other shows a Ipad and Iphone
 
-![Desktop wireframe](assets/images/desktopwrieframe.png)
+![Desktop wireframe](assets/images/desktopwireframe.png)
 ![Ipad wireframe](assets/images/ipadwireframe.png)
-![Ipad Wireframe2](assets/images/ipadwireframe2.png)
-![Iphone Wireframe](assets/images/iphonewireframes.png)
+![Iphone Wireframe](assets/images/iphonewireframe.png)
 
 ### 3. Features
-
 
 ### Landing Page
 

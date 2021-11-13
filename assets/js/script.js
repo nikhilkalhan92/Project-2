@@ -32,7 +32,7 @@
         document.getElementById("computerScore").innerHTML = computerScore;
         document.getElementById("userScore").innerHTML = userScore;
         document.getElementById("resultText").innerHTML = choice1 + result[dif] + choice2;
-         document.getElementById("Players").innerHTML = `<div class='you'>You <i class="fas fa-hand-${choice1}"></i></div><div class='com'>Computer <i class="fas fa-hand-${choice2}"></i></div>`;
+         document.getElementById("Players").innerHTML = '<div class="you">You <i class="fas fa-hand-'+choice1+'"></i></div><div class="com">Computer <i class="fas fa-hand-'+choice2+'"></i></div>';
         // if user wins increment score
         // if computer wins increment computer score
         // if tie do nothing 
@@ -73,17 +73,18 @@
         userScore = 0;
         computerScore = 0;
         count = 0;
-    }
+    };
     
     continue_fun = function(){
         
         document.getElementById("continue").style.display = 'none';
         document.getElementById("startNew").style.display = 'none';
-    }
+    };
     
      close_bt = function(){
             document.getElementById("continue").style.display = 'block';
             document.getElementById("startNew").style.display = 'block';
-    }
+    };
+    
     
     

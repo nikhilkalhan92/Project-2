@@ -147,7 +147,7 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 
 I used GitHub pages to deploy my final project. To do this I had to:
 1. Login or Sign Up to [GitHub] - https://github.com/nikhilkalhan92/Project-2
-2. Create a new repository named "MS2-Project"
+2. Create a new repository named "Project-2"
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Choose which folder to deploy from, I used "/root".
 5. Click "Save", then wait for it to be deployed. 
@@ -162,29 +162,6 @@ If you need to make a copy of a repository:
 3. In the top right corner, click "Fork".
 
 ## 5. TESTING
-
-#### CODE VALIDATORS ####
-
-### W3C Validator Tools
-
-1. HTML Validator Results
-
-I used to check for any errors within my HTML pages. I had no errors in the index.
-
-1. ![html](assets/images/htmlnoerrors2.png)
-
-2. W3C CSS Validator Results
-![css](assets/images/csserrors.png)
-
-3. JSHINT Results 
-   I had a few errors for my javascript, which I managed to resolve quite easily.
-   ![javascript](assets/images/jserrors.png) 
-
-   JS validator is like this now with no errors
-   ![javascript1](assets/images/javaresults.png)
-
-
-#### WEBSITE TESTING ####
 
 ## Manual Testing
 
@@ -230,6 +207,26 @@ These include:
 I tested my website using Google Chrome Developer Tools Lighthouse feature, and received the results below:
 
 ![lighthouse score](assets/images/lighthouse.png)
+
+#### CODE VALIDATORS ####
+
+### W3C Validator Tools
+
+1. HTML Validator Results
+
+I used to check for any errors within my HTML pages. I had no errors in the index.
+
+1. ![html](assets/images/htmlnoerrors2.png)
+
+2. W3C CSS Validator Results
+![css](assets/images/csserrors.png)
+
+3. JSHINT Results 
+   I had a few errors for my javascript, which I managed to resolve quite easily.
+   ![javascript](assets/images/jserrors.png) 
+
+   JS validator is like this now with no errors
+   ![javascript1](assets/images/javaresults.png)
 
 
 ## 6. END PRODUCT 

@@ -66,16 +66,21 @@ COLOR SCHEME
 
 My overall color scheme used throughout the site which I felt these colurs would be best suited for a space game. I gained a lot of inspiration from the Black Mirror Episode - "USS Calister".
 
-- Crimson Red 
-![crimsonred](assets/images/crimsonred.png)
-- Dodger Blue
-![dodgerblue](assets/images/dodgerblue.png)
+Crimson Red 
+-![crimsonred](assets/images/crimsonred.png)
+
+Dodger Blue
+-![dodgerblue](assets/images/dodgerblue.png)
+
 - Green
-![green](assets/images/green.png)
+-![green](assets/images/green.png)
+
 - Royal Blue
-![royalblue](assets/images/royalblue.png)
+-![royalblue](assets/images/royalblue.png)
+
 - Purple Patriarch
-![purplepatriarch](assets/images/purplepatriach.png)
+-![purplepatriarch](assets/images/purplepatriach.png)
+
 - Black
 
 ### WIREFRAME ###
@@ -159,7 +164,7 @@ If you need to make a copy of a repository:
 
 I used to check for any errors within my HTML pages. I had no errors in the index.
 
-![html](assets/images/htmlcheckernoerrors.png)
+1. ![html](assets/images/htmlnoerrors2.png)
 
 2. W3C CSS Validator Results
 ![css](assets/images/csserrors.png)
@@ -255,16 +260,29 @@ IPAD MENU SCREEN
 IPAD GAME SCREEN
 ![Ipadgame](assets/images/ipadgame.png)
 
-
-
-
 ## 7. IMAGES
 
 Link to my background photo is here - https://docs.microsoft.com/en-us/samples/microsoft/rockpaperscissorslizardspock/azure-rock-paper-scissors/
 
-## 8. ACKNOWLEDGMENTS  
+## 8. KNOWN BUGS
+![bugs](assets/images/jserrors.png)
+
+These are the JS errors that I resolved.
+
+## 9. DEVELOPMENT CYCLE
+
+-Landing Page
+- I didn't change anything on the landing page. All elements were exactly how I imagined from my wireframe.
+
+- Game Page
+- I added a new game option 
+- I added the win/lose scenario so the player would know who won the match.
+
+## 10. ACKNOWLEDGMENTS  
 
 Thank you to my mentor Marcel for the help and guidance.
+
+and my best friend Jayden Maddison!
 
 
 

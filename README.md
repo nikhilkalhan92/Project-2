@@ -13,7 +13,7 @@ Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, S
 ### AM I RESPONSIVE ###
 ![AM I RESPONSIVE](assets/images/amiresponsive.png)
 
-### 1. UX
+## 1. UX
 
 Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Lizard, Spock game which originated from the TV show, Big Bang Theory ( Season 2 Episode 8 - "The Lizard-Spock Expansion" ). This game adds 2 extra weapons, Lizard and Spock. This changes the dynamic of the game giving the player/s more variety to win.
 
@@ -43,14 +43,14 @@ The game should be engaging and display a winner and loser.
 -   The weapon selection is clear.
 -   The user interface is easy to navigate.
 -   The game is responsive on all devices including mobile, tablet and desktop.
--   To have the ability to contact the creator of the game.
+
 
 ### Trends of modern games:
 
--   Mobile gaming 
+-   Online gaming
 
 
-### 2. - Structure
+## 2. - Structure
 
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
 
@@ -61,15 +61,15 @@ It is really important to include responsive design in this project as many user
 
 ### FINAL DESIGN ###
 
-## DESIGN
-COLOR SCHEME
+### DESIGN
+### COLOR SCHEME
 
-My overall color scheme used throughout the site which I felt these colurs would be best suited for a space game. I gained a lot of inspiration from the Black Mirror Episode - "USS Calister".
+My overall color scheme used are below in an example, and are used throughout the site. These colo  urs would be best suited for a space game. I gained a lot of inspiration from the Black Mirror Episode - "USS Calister".
 
-Crimson Red 
+- Crimson Red 
 -![crimsonred](assets/images/crimsonred.png)
 
-Dodger Blue
+- Dodger Blue
 -![dodgerblue](assets/images/dodgerblue.png)
 
 - Green
@@ -93,7 +93,7 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 ![Ipad wireframe](assets/images/ipadwireframe.png)
 ![Iphone Wireframe](assets/images/iphonewireframe.png)
 
-### 3. Features
+## 3. Features
 
 ### Landing Page
 
@@ -227,37 +227,37 @@ I tested my website using Google Chrome Developer Tools Lighthouse feature, and 
 
 ## 6. END PRODUCT 
 
-HOMEPAGE
+### HOMEPAGE
 ![homepage](assets/images/homepage.png)
 
-RULES
+### RULES
 ![rules](assets/images/rules.png)
 
-SCOREBOARD
+### SCOREBOARD
 ![scoreboard](assets/images/scoreboard.png)
 
-GAME IN ACTION
+### GAME IN ACTION
 ![gameinaction](assets/images/gameinaction.png)
 
-OPTION TO START NEW GAME
+### OPTION TO START NEW GAME
 ![newgame](assets/images/optiontostartnewgame.png)
 
-COMPUTER WINS
+### COMPUTER WINS
 ![computer](assets/images/computerwins.png)
 
-PLAYER WINS
+### PLAYER WINS
 ![player](assets/images/winner.png)
 
-IPHONE MENU
+### IPHONE MENU
 ![iphonemenu](assets/images/iphonemenu.png)
 
-IPHONE GAME SCREEN
+### IPHONE GAME SCREEN
 ![Iphonegame](assets/images/iphonegame1.png)
 
-IPAD MENU SCREEN
+### IPAD MENU SCREEN
 ![Iphonemenu](assets/images/ipadhomepage.png)
 
-IPAD GAME SCREEN
+### IPAD GAME SCREEN
 ![Ipadgame](assets/images/ipadgame.png)
 
 ## 7. IMAGES

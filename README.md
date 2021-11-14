@@ -7,7 +7,6 @@
 
 Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game involving the programming languages HTML5, CSS3 and JavaScript. This game will demonstrate basic JavaScript functionality.
 
-
 [Here is a link to the final project](https://nikhilkalhan92.github.io/Project-2/)
 
 ### AM I RESPONSIVE ###
@@ -84,7 +83,7 @@ My overall color scheme used are below in an example, and are used throughout th
 
 I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
 
-There are 3 versions of each wireframe as one shows the design on a web browser and the other shows a Ipad and Iphone
+There are 3 versions of each wireframe as one shows the design on a web browser and the other show on a Ipad and Iphone
 
 ![Desktop wireframe](assets/images/desktopwireframe.png)
 ![Ipad wireframe](assets/images/ipadwireframe.png)
@@ -170,6 +169,7 @@ These include:
 -   iPhone XS Max
 -   iPad Pro
 -   Macbook Pro
+-   Web Browser
 
 #### Please find below my testing process for all pages via mobile and web: ####
 

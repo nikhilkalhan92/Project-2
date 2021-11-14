@@ -63,13 +63,20 @@ It is really important to include responsive design in this project as many user
 
 ## DESIGN
 COLOR SCHEME
-My overall color scheme used throughout the site.
 
-- Crimson Red - 
+My overall color scheme used throughout the site which I felt these colurs would be best suited for a space game. I gained a lot of inspiration from the Black Mirror Episode - "USS Calister".
+
+- Crimson Red 
+![crimsonred](assets/images/crimsonred.png)
 - Dodger Blue
+![dodgerblue](assets/images/dodgerblue.png)
 - Green
+![green](assets/images/green.png)
 - Royal Blue
-- Hex 
+![royalblue](assets/images/royalblue.png)
+- Purple Patriarch
+![purplepatriarch](assets/images/purplepatriach.png)
+- Black
 
 ### WIREFRAME ###
 

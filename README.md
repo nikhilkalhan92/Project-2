@@ -66,20 +66,17 @@ It is really important to include responsive design in this project as many user
 
 My overall color scheme used are below in an example, and are used throughout the site. These colo  urs would be best suited for a space game. I gained a lot of inspiration from the Black Mirror Episode - "USS Calister".
 
-- Crimson Red 
 -![crimsonred](assets/images/crimsonred.png)
+- Crimson Red 
 
-- Dodger Blue
 -![dodgerblue](assets/images/dodgerblue.png)
+- Dodger Blue
 
-- Green
--![green](assets/images/green.png)
-
-- Royal Blue
 -![royalblue](assets/images/royalblue.png)
+- Royal Blue
 
-- Purple Patriarch
 -![purplepatriarch](assets/images/purplepatriach.png)
+- Purple Patriarch
 
 - Black
 
@@ -92,7 +89,7 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 ![Desktop wireframe](assets/images/desktopwireframe.png)
 ![Ipad wireframe](assets/images/ipadwireframe.png)
 ![Iphone Wireframe](assets/images/iphonewireframe.png)
-
+ 
 ## 3. Features
 
 ### Landing Page

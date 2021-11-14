@@ -98,26 +98,33 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 ### Landing Page
 
 - Rules button - This button opens up a popup modal. This modal explains all the rules for the game. Listing the winning possibilities of each weapon. 
+![rules](assets/images/rules.png)
 
 - Start game button - This button will allow the user to navigate to the game page.
 
-- Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon magnifies.
+- Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon changes to another hint of blue.
+![footer](assets/images/footer.png)
 
 ### Game Page
 
 -   Results - The results section of the page shows the user the outcome of the round.
+    ![results](assets/images/results.png)
 
--   Scoreboard - The scoreboard shows the current score between user and computer. I have color coded the player and computer. So the player will be red, and the computer blue. Once, you start playing, the player presses the emoji they select. Once that happens, the computer option will come up in blue, and the score updates depending on if you win/lose. A sentence will appear telling you the results with the emojis.
+-   Scoreboard - The scoreboard shows the current score between user and computer. I have color coded the player and computer. So the player will be red, and the computer blue. Once, you start playing, the player presses the emoji they select. Once that happens, the computer option will come up in blue, and the score updates depending on if you win/lose. A sentence will appear telling you the results, taking you back to the home page.
+    ![scoreboard](assets/images/scoreboard.png)
 
 -   Select your option - This section allows the player to select their desired weapon. There are 5 icons rock, paper, scissors, lizard, spock. When hovering over each weapon the icon background changes colour to give the user confirmation before selecting the weapon. 
+    ![weapons](assets/images/weapons.png)
 
 -   Player/Computer choices - This section shows the selection of weapons made by the player and the generated weapon selection for the computer. This uses the same icons as the initial weapon selection part.
 
 -   X option- This button will take the user back to the index page.
 
 - Index Page - if you click out, you will get another pop up modal of start new game or continue the one you are in.
+    ![newgame](assets/images/optiontostartnewgame.png)
 
 - The game will end and take you to the homepage, showing who won once a player reaches the 2 score.
+    ![winner](assets/images/winner.png)
 
 ## 4. Technologies Used
 
@@ -197,12 +204,12 @@ These include:
 2. Text: I checked that all text is in the correct and consistent size and font. I also checked that there were no spelling errors.
 
 #### Responsiveness ####
-1. I checked that all pages and elements were responsive. To find breakpoints, I adjusted the screen sizes on mobile and website. It worked as expected. 
+1. I checked that all pages and elements were responsive. 
 
 #### HomePage ####
 
 1. Rules button - When selecting the "rules" button, a popup modal appears with rules of the game. This worked as expected.
-2.. Start game button - When selecting the "start game" button, a popup modal appears to the game page. This worked as expected.
+2. Start game button - When selecting the "start game" button, a popup modal appears to the game page. This worked as expected.
 
 #### Footer ####
 1. Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
@@ -271,7 +278,7 @@ These are the JS errors that I resolved.
 
 ## 9. DEVELOPMENT CYCLE
 
--Landing Page
+- Landing Page
 - I didn't change anything on the landing page. All elements were exactly how I imagined from my wireframe.
 
 - Game Page

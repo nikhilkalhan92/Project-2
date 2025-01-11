@@ -5,120 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
 
-    <!---Google Font and  Font Awesome-->
+    <!-- Google Fonts and Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>Rock Paper Scissors Lizard Spock</title>
+    <script src="https://kit.fontawesome.com/46c2202b92.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <!-- Title and logo heading at the top of the page -->
-
-  
-
-    <!-- Rules, Start, Contact Buttons with popup modals -->
-        <main>
-    <div class="modals">
-        <a class="index_btn" href="#open_rules_modal">Rules</a>
-        <div id="open_rules_modal" class="modalDialog openModal">
-            <div id="open_modal">
-                <a href="#close" title="Close" class="close">X</a>
-                <h2 class="modal_title">Rules</h2>
-
-                <br />
-                <p>
-                    First to 2 wins in the famous game played by Sheldon and Raj.
-                    <br />
-                    <br />
-                    Scissors beats Paper
-                    <br />
-                    Paper covers Rock
-                    <br />
-                    Rock crushes Lizard
-                    <br />
-                    Lizard poisons Spock
-                    <br />
-                    Spock smashes Scissors
-                    <br />
-                    Scissors slice Lizard
-                    <br />
-                    Lizard eats Paper
-                    <br />
-                    Paper cuts Spock
-                    <br />
-                    Spock defeats Rock
-                    <br />
-                    Rock smashes Scissors
-
-
-                </p>
-                
+    <!-- Main Game Section -->
+    <main>
+        <!-- Rules Modal -->
+        <div class="modals">
+            <a class="index_btn" href="#open_rules_modal">Rules</a>
+            <div id="open_rules_modal" class="modalDialog openModal">
+                <div id="open_modal">
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2 class="modal_title">Rules</h2>
+                    <p>
+                        First to 2 wins in the famous game played by Sheldon and Raj.<br>
+                        Scissors beats Paper <br>
+                        Paper covers Rock <br>
+                        Rock crushes Lizard <br>
+                        Lizard poisons Spock <br>
+                        Spock smashes Scissors <br>
+                        Scissors slice Lizard <br>
+                        Lizard eats Paper <br>
+                        Paper cuts Spock <br>
+                        Rock smashes Scissors
+                    </p>
+                </div>
             </div>
         </div>
-        <a class="index_btn" id="continue" href="#open_game_modal" onclick="continue_fun()">Continue..</a>
-         <a class="index_btn" id="startNew" href="#open_game_modal" onclick="stratNew()">Start New Game</a>
-      
 
+        <!-- Start and Continue Buttons -->
+        <a class="index_btn" id="continue" href="#open_game_modal" onclick="continueGame()">Continue</a>
+        <a class="index_btn" id="startNew" href="#open_game_modal" onclick="startNew()">Start New Game</a>
+
+        <!-- Game Modal -->
         <div id="open_game_modal" class="modalDialog openModal">
             <div>
-                <a href="#close" title="Close" onclick="close_bt()" class="close">X</a>
+                <a href="#close" title="Close" onclick="closeButton()" class="close">X</a>
                 <h2 class="modal_title">Start Game</h2>
+
+                <!-- Score Section with Total Score -->
                 <div class="results_container">
                     <div class="score_container">
-                        <p id="userScore">0</p>
-                        <p id="computerScore">0</p>
+                        <p>User Score: <span id="userScore">0</span></p>
+                        <p>Computer Score: <span id="computerScore">0</span></p>
                     </div>
+
+                    <!-- Total Score Section -->
+                    <div class="total_score">
+                        <p>Total Score: <span id="totalScore">0 - 0</span></p>
+                    </div>
+
+                    <!-- Choices Display Section -->
                     <div class="choice_container">
                         <p id="resultText"></p>
-                         <div id="Players"></div>
+                        <div id="Players"></div>
                     </div>
-                </div> 
-                <div class="game_actions">
-                    <a class="game_btn" onclick="bigBang('rock', randomChoice)"><i class="fas fa-hand-rock"></i></a>
-                    <a class="game_btn" onclick="bigBang('scissors', randomChoice)"><i class="far fa-hand-scissors"></i></a>
-                    <a class="game_btn" onclick="bigBang('paper', randomChoice)"><i class="far fa-hand-paper"></i></a>
-                    <a class="game_btn" onclick="bigBang('lizard', randomChoice)"><i class="far fa-hand-lizard"></i></a>
-                    <a class="game_btn" onclick="bigBang('spock', randomChoice)"><i class="fas fa-hand-spock"></i></a>        
                 </div>
 
+                <!-- Game Action Buttons -->
+                <div class="game_actions">
+                    <a class="game_btn" id="rockButton">Rock</a>
+                    <a class="game_btn" id="paperButton">Paper</a>
+                    <a class="game_btn" id="scissorsButton">Scissors</a>
+                    <a class="game_btn" id="lizardButton">Lizard</a>
+                    <a class="game_btn" id="spockButton">Spock</a>
+                </div>
             </div>
         </div>
+    </main>
 
-    </div>
+    <!-- Results Section -->
+    <h1 id="result"></h1>
 
-</main>
-
-<h1 id="result"> </h1>
-<footer>
+    <!-- Footer with Social Media Links -->
+    <footer>
         <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </footer>
 
-    <a id="reset" href="#"></a>
-    <script src="https://kit.fontawesome.com/46c2202b92.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- JavaScript Linking -->
+    <script src="assets/js/script.js" defer></script>
 </body>
-
 
 </html>

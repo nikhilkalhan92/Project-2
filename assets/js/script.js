@@ -1,90 +1,76 @@
+// Initialize Global Variables
+let userScore = 0;
+let computerScore = 0;
+let totalUserScore = 0;
+let totalComputerScore = 0;
+let count = 0;
 
-    var options = ["paper", "rock", "lizard", "spock", "scissors"],
-    result = [" ties ", " beats ", " loses to "],
-    i = Math.floor(Math.random() * 5),
-    randomChoice = options[i],
-    userScore = 0,
-    computerScore = 0,
+// Event Listeners (Set AFTER DOM Loads)
+window.onload = function () {
+    document.getElementById("rockButton").addEventListener("click", () => bigBang('rock', getRandomChoice()));
+    document.getElementById("paperButton").addEventListener("click", () => bigBang('paper', getRandomChoice()));
+    document.getElementById("scissorsButton").addEventListener("click", () => bigBang('scissors', getRandomChoice()));
+    document.getElementById("lizardButton").addEventListener("click", () => bigBang('lizard', getRandomChoice()));
+    document.getElementById("spockButton").addEventListener("click", () => bigBang('spock', getRandomChoice()));
+};
+
+// Random Choice Function for the Computer
+function getRandomChoice() {
+    const options = ["rock", "paper", "scissors", "lizard", "spock"];
+    return options[Math.floor(Math.random() * options.length)];
+}
+
+// Main Game Logic
+function bigBang(choice1, choice2) {
+    const options = ["rock", "paper", "scissors", "lizard", "spock"];
+    const index1 = options.indexOf(choice1);
+    const index2 = options.indexOf(choice2);
+
+    let dif = index2 - index1;
+    if (dif < 0) dif += options.length;
+    while (dif > 2) dif -= 2;
+
+    if (dif === 1) {
+        userScore++;
+        totalUserScore++;
+    } else if (dif === 2) {
+        computerScore++;
+        totalComputerScore++;
+    }
+
+    count++;
+    updateUI(choice1, choice2, dif);
+    updateTotalScore();
+
+    if (count === 3) {
+        endGame();
+    }
+}
+
+// Update the Score and Results Display
+function updateUI(choice1, choice2, dif) {
+    document.getElementById("computerScore").textContent = computerScore;
+    document.getElementById("userScore").textContent = userScore;
+    document.getElementById("resultText").textContent = `${choice1} vs ${choice2}`;
+}
+
+// Update the Total Score
+function updateTotalScore() {
+    document.getElementById("totalScore").textContent = `${totalUserScore} - ${totalComputerScore}`;
+}
+
+// Reset Game
+function startNew() {
+    userScore = 0;
+    computerScore = 0;
     count = 0;
-    bigBang = function(choice1, choice2) {
-        var index1 = options.indexOf(choice1), //spock => 3
-            index2 = options.indexOf(choice2), //rock=> 1
-            dif = index2 - index1; // 1 - 3 => -2
-        if(dif < 0) { // -2 < 0 => truthy
-            dif += options.length; // -2 + 5 => 3
-        }
-        while(dif > 2) { //3 > 2 => truthy
-            dif -= 2; // 3 - 2 => 1
-        }
-        i = Math.floor(Math.random() * 5);
-        randomChoice = options[i];
-        
-        if(dif == 1) {
-          userScore += 1; 
-        }
-        if(dif >= 2) {
-          computerScore += 1; 
-        }
-        count++;
+    document.getElementById("userScore").textContent = "0";
+    document.getElementById("computerScore").textContent = "0";
+    document.getElementById("resultText").textContent = "";
+}
 
-        console.log(userScore, computerScore);
-        console.log(choice1 + result[dif] + choice2); //spock beats rock
-        document.getElementById("computerScore").innerHTML = computerScore;
-        document.getElementById("userScore").innerHTML = userScore;
-        document.getElementById("resultText").innerHTML = choice1 + result[dif] + choice2;
-         document.getElementById("Players").innerHTML = '<div class="you">You <i class="fas fa-hand-'+choice1+'"></i></div><div class="com">Computer <i class="fas fa-hand-'+choice2+'"></i></div>';
-        // if user wins increment score
-        // if computer wins increment computer score
-        // if tie do nothing 
-        if(count == 3){
-            if(userScore <computerScore){
-                document.getElementById('result').innerHTML = 'Computer Won';
-            }
-            else if(userScore>computerScore){
-                 document.getElementById('result').innerHTML = 'You Won';
-            }
-            else{
-                 document.getElementById('result').innerHTML = 'Game Tied';
-            }
-         
-
-         document.getElementById('reset').click();
-         document.getElementById('result').style.display='block'; 
-         document.getElementById("startNew").style.display = 'block';
-        userScore = 0;
-        computerScore = 0;
-        count = 0;
-        document.getElementById("computerScore").innerHTML = '0';
-        document.getElementById("userScore").innerHTML = '0';
-        document.getElementById("resultText").innerHTML = '';
-        document.getElementById("Players").innerHTML = '';
-       
-        }
-    };
-    
-    stratNew = function(){
-         document.getElementById('result').style.display='none'; 
-        document.getElementById("computerScore").innerHTML = '0';
-        document.getElementById("userScore").innerHTML = '0';
-        document.getElementById("resultText").innerHTML = '';
-         document.getElementById("Players").innerHTML = '';
-        document.getElementById("continue").style.display = 'none';
-        document.getElementById("startNew").style.display = 'none';
-        userScore = 0;
-        computerScore = 0;
-        count = 0;
-    };
-    
-    continue_fun = function(){
-        
-        document.getElementById("continue").style.display = 'none';
-        document.getElementById("startNew").style.display = 'none';
-    };
-    
-     close_bt = function(){
-            document.getElementById("continue").style.display = 'block';
-            document.getElementById("startNew").style.display = 'block';
-    };
-    
-    
-    
+// End Game Check
+function endGame() {
+    alert(userScore > computerScore ? "You Won!" : userScore < computerScore ? "Computer Won!" : "It's a Tie!");
+    updateTotalScore();
+}

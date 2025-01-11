@@ -1,265 +1,230 @@
-
-/* headings and logo */
- 
+/* General Body Styling */
 body {
     min-height: 100vh;
     display: flex;
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
     flex-direction: column;
     margin: 0;
-
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
 }
+
 main {
     flex-grow: 1;
     background-size: cover;
     background-position: center center;
     background-image: url('../images/logo1.png');
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
 }
-    
+
+/* Headings Styling - Improved Visibility */
 h1, h2 {
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:rgb(128,0,128);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.logo {
-    float: left;
-    width: 24%;
+h2 {
+    font-size: 2rem;
+    color: white;
 }
 
-/* Button modals */
+p {
+    font-size: 1.2rem;
+}
+
+/* Modal Styling - Centered and Properly Layered */
 .modalDialog {
-    position: absolute;
-    font-family: "Benne", serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
     opacity: 0;
-    
     transition: opacity 400ms ease-in;
     pointer-events: none;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
+
 .modalDialog:target {
     opacity: 1;
     pointer-events: auto;
 }
 
+/* Modal Content Box Styling */
 .modalDialog > div {
-    width: 400px;
-    position: relative;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    background: #dbdbdb;
-    text-align: center;
-}
-
-#Players{
-     position: absolute;
-    
     width: 100%;
-    font-size: 18px;
-    right: 0;
-    font-family: sans-serif;
-}
-#Players div{
-    display: inline;
-    padding: 0 10px;
-}
-.modalDialog a {
-    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+    font-size: 1.2rem;
+    color: black;
 }
 
+/* Close Button Styling */
 .close {
-    background: mediumpurple;
-    color: black;
+    background: purple;
+    color: white;
     line-height: 24px;
     position: absolute;
-
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-        border-radius: 100%;
-    text-align: center;
-    font-size: 22px;
-    right: -5px;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
     padding: 5px;
-    top: -8px;
-    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
 }
 
 .close:hover {
-    background: #df0024;
+    background: red;
 }
 
-/* Rules modal */
-#rules_diagram {
-    margin-top: 2.5%;
-    width: 25%;
-    border-radius: 25px;
-    display: block;
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.modal_title {
-    padding-top: 2.5%;
-    text-align: center;
-}
-
-
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 180%;
-    margin: 1%;
-    padding: 1%;
-    color: dodgerblue;
-}
-
-.results_container{
+/* Button Styling (Improved Alignment and Sizing) */
+.game_actions {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.game_btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game_btn:hover {
+    background-color: royalblue;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Score Section Styling - FIXED VISIBILITY */
+.results_container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: 2px solid white;
 }
 
 .score_container {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
     border-radius: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Lightened background for better contrast */
+    color: black;
+    border: 3px solid white;
 }
 
-.score_container p {
-    display: inline;
-    font-size: 80px;
-    font-weight: bold;
-    color: white;
-    padding: 20px 40px;
-}
-.score_container #userScore {
-    background-color: crimson;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-right: -6px;
-}
-.score_container #computerScore {
- background-color: dodgerblue;
- border-top-right-radius: 20px;
- border-bottom-right-radius: 20px;
-}
-.choice_container {
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-.choice_container p{
-    display: inline;
-}
-
-.modals{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    max-width: 100%;
-    margin-top: 25px;
-    
-}
-
-.index_btn{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: dodgerblue;
-    margin: 0 10px;
-    width: 120px;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    transition: 0.2s;
-}
-
-
-#continue{
-    display: none;
-}
-
-.index_btn:hover{
-    background-color: royalblue; 
-}
-
-.game_actions{
-    text-align: center;
-    font-size: 50px;
-    margin: 20px 0;
-    user-select: none;
-}
-.game_actions a{
-    color: dodgerblue;
-    transition: 0.3s;
-}
-
-.game_actions a:hover{
-    color: royalblue;
-}
-
-
-
-#open_modal {
-    height: 600px;
-    width: 360px;
-}
-
-.close-button {
-    padding: 6px;
-    border-radius: 5px;
-    font-family: sans-serif;
-}
-
-
-.com{
-    color: dodgerblue;
-}
-
-    
-.you{
+#userScore {
     color: crimson;
 }
 
-#result{
+#computerScore {
+    color: dodgerblue;
+}
+
+.total_score {
+    font-size: 2rem;
     text-align: center;
-    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid white;
+}
+
+/* Links Styling */
+.index_btn {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.index_btn:hover {
+    color: cyan;
+    text-decoration: none;
+}
+
+/* Social Networks Styling */
+.social-networks {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-networks li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.social-networks i {
+    font-size: 2rem;
+    color: dodgerblue;
+    transition: color 0.3s;
+}
+
+.social-networks i:hover {
+    color: royalblue;
+}
+
+/* Fixing the Continue Button Display */
+#continue {
     display: none;
 }
-@media only screen and (max-width: 600px) {
-    .modalDialog > div{
-        width: 250px;
+
+/* Mobile Optimization for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .modalDialog > div {
+        width: 90%;
     }
-    .score_container p {
-        font-size: 50px;
+    .game_btn {
+        font-size: 1.2rem;
+        padding: 10px;
     }
-    .game_actions {
-        font-size: 40px;
+    .score_container {
+        font-size: 1.5rem;
+        padding: 15px;
     }
-    .modals{
-        flex-wrap: wrap;
+    .total_score {
+        font-size: 1.5rem;
     }
-    .index_btn{
-        margin-top: 20px;
+    .modalDialog {
+        width: 95%;
     }
 }

@@ -11,15 +11,19 @@ body {
     overflow: hidden;
 }
 
+
 main {
-    flex-grow: 1;
-    background-size: cover;
-    background-position: center center;
-    background-image: url('../images/logo1.png');
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-}
+        display: flex;
+        flex-direction: column; /* Stack buttons and title vertically */
+        align-items: center; /* Center everything horizontally */
+        justify-content: flex-start; /* Align everything at the top */
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-image: url('../images/logo1.png');
+    }
+
+
 
 /* Headings Styling - Improved Visibility */
 h1, h2 {
@@ -59,6 +63,14 @@ p {
     border: 2px solid white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
+
+.modal-buttons {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px; }
 
 .modalDialog:target {
     opacity: 1;
@@ -168,17 +180,37 @@ p {
 
 /* Links Styling */
 .index_btn {
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: underline;
-    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
     cursor: pointer;
-    font-weight: bold;
+    background: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
 .index_btn:hover {
-    color: cyan;
-    text-decoration: none;
+    background-color: royalblue;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.game-title {
+    margin-top: 20%; /* Adjust spacing as needed */
+    text-align: center;
+}
+
+.modal-buttons {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px; /* Space between the buttons */
 }
 
 /* Social Networks Styling */
